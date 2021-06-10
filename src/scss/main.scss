@@ -1,0 +1,24 @@
+
+body {
+  background: url('/resources/bcg.png');
+}
+
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  letter-spacing: 4px;
+  color: turquoise;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid rgba(0, 50, 100, 0.4);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+::selection {
+  background: transparent;
+}
